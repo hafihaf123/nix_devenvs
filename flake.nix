@@ -13,6 +13,7 @@
 
       # EXPLICIT IMPORTS
       imports = [
+        ./envs/rust.nix
         # ./envs/<language>.nix
       ];
 
