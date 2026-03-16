@@ -8,13 +8,15 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
 
-  outputs = inputs@{ flake-parts, ... }:
+  outputs =
+    inputs@{ flake-parts, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
 
       # EXPLICIT IMPORTS
       imports = [
         ./envs/rust.nix
-        # ./envs/<language>.nix
+        ./envs/python.nix
+        ./envs/c.nix
       ];
 
       # SUPPORTED ARCHITECTURES
@@ -25,16 +27,18 @@
       ];
 
       # GLOBAL CONFIGURATION
-      perSystem = { system, pkgs, ... }: {
+      perSystem =
+        { system, pkgs, ... }:
+        {
 
-        # Configure the 'pkgs' instance passed to all your environment files
-        _module.args.pkgs = import inputs.nixpkgs {
-          inherit system;
-          # Useful for developer tools like Terraform, some LSPs, or proprietary SDKs
-          config.allowUnfree = true;
+          # Configure the 'pkgs' instance passed to all your environment files
+          _module.args.pkgs = import inputs.nixpkgs {
+            inherit system;
+            # Useful for developer tools like Terraform, some LSPs, or proprietary SDKs
+            config.allowUnfree = true;
+          };
+
+          formatter = pkgs.nixpkgs-fmt;
         };
-
-        formatter = pkgs.nixpkgs-fmt;
-      };
     };
 }
