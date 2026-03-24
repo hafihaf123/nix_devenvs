@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.0.1](https://github.com/hafihaf123/nix_devenvs/compare/e7e7d1da8e0fdf924127d4523401c1dd78a62506..v1.0.1) - 2026-03-24
+#### Bug Fixes
+- (**rust**) add cargo-nextest to packages - ([e7e7d1d](https://github.com/hafihaf123/nix_devenvs/commit/e7e7d1da8e0fdf924127d4523401c1dd78a62506)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Build system
+- update flake - ([6fdc712](https://github.com/hafihaf123/nix_devenvs/commit/6fdc7127064a615e99994f4fd271b4fbc7b15c4e)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.0.0](https://github.com/hafihaf123/nix_devenvs/compare/d416372c3b71beab0dfa856b6a8655dd68a5c249..v1.0.0) - 2026-03-24
 #### Features
 - add python and C environments - ([69d0fb3](https://github.com/hafihaf123/nix_devenvs/commit/69d0fb35d80099c48a5b9f3548bd0c6bd5525615)) - [@hafihaf123](https://github.com/hafihaf123)
