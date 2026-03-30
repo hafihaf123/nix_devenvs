@@ -4,17 +4,23 @@ _: {
     {
       devShells.c = pkgs.mkShell {
         packages = [
+          # compiler
           pkgs.gcc
+
+          # build tools
           pkgs.gnumake
           pkgs.cmake
           pkgs.ninja
 
+          # linting and formatting tools
           pkgs.clang-tools
-
           pkgs.cppcheck
+
+          # debugging tools
           pkgs.valgrind
           pkgs.gdb
 
+          # additional tools
           pkgs.bear
         ];
 

@@ -4,11 +4,20 @@ _: {
     {
       devShells.rust = pkgs.mkShell {
         packages = [
-          pkgs.cargo
+          # compiler
           pkgs.rustc
+
+          # package manager
+          pkgs.cargo
+
+          # linters, formatters
           pkgs.rustfmt
           pkgs.clippy
+
+          # LSP
           pkgs.rust-analyzer
+
+          # additional tools
           pkgs.cargo-nextest
         ];
 
