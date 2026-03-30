@@ -38,7 +38,7 @@
             config.allowUnfree = true;
           };
 
-          formatter = pkgs.nixpkgs-fmt;
+          formatter = pkgs.nixfmt-rfc-style;
         };
     };
 }
