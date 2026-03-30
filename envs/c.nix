@@ -2,11 +2,8 @@ _: {
   perSystem =
     { pkgs, ... }:
     {
-      devShells.c = pkgs.mkShell {
+      devShells.c = pkgs.mkShell.override { stdenv = pkgs.gccStdenv; } {
         packages = [
-          # compiler
-          pkgs.gcc
-
           # build tools
           pkgs.gnumake
           pkgs.cmake
