@@ -4,6 +4,7 @@ _: {
     {
       devShells.c = pkgs.mkShell {
         packages = [
+          pkgs.gcc
           pkgs.gnumake
           pkgs.cmake
           pkgs.ninja
