@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.0.2](https://github.com/hafihaf123/nix_devenvs/compare/4afbcd2ed99c19deb26771614b3580b6fd87f3f2..v1.0.2) - 2026-03-30
+#### Bug Fixes
+- (**c**) add gcc explicitly as a package - ([c25f51e](https://github.com/hafihaf123/nix_devenvs/commit/c25f51e722a1aa7dc294c0e55db2828ea0ddec85)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Documentation
+- add comments explaining the packages and their use case - ([366d526](https://github.com/hafihaf123/nix_devenvs/commit/366d5267f66a0f29450e8e2cab6af71d1745dfa5)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Refactoring
+- change formatter to nixfmt-rfc-style - ([4884b5c](https://github.com/hafihaf123/nix_devenvs/commit/4884b5c52320abcdcdcb00aa8294c65d2b3ec10b)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Style
+- reformat redundant '{ ... }' into '_' - ([4afbcd2](https://github.com/hafihaf123/nix_devenvs/commit/4afbcd2ed99c19deb26771614b3580b6fd87f3f2)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.0.1](https://github.com/hafihaf123/nix_devenvs/compare/e7e7d1da8e0fdf924127d4523401c1dd78a62506..v1.0.1) - 2026-03-24
 #### Bug Fixes
 - (**rust**) add cargo-nextest to packages - ([e7e7d1d](https://github.com/hafihaf123/nix_devenvs/commit/e7e7d1da8e0fdf924127d4523401c1dd78a62506)) - [@hafihaf123](https://github.com/hafihaf123)
