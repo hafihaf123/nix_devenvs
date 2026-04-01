@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.0.3](https://github.com/hafihaf123/nix_devenvs/compare/ca6d8d6eddd900da22e96a969d113df95b3a7e96..v1.0.3) - 2026-04-01
+#### Bug Fixes
+- (**c**) move explicit gcc package to the stdenv override instead - ([ca6d8d6](https://github.com/hafihaf123/nix_devenvs/commit/ca6d8d6eddd900da22e96a969d113df95b3a7e96)) - [@hafihaf123](https://github.com/hafihaf123)
+- (**python**) add UV_PYTHON helper variable to the python environment setup - ([a61c05f](https://github.com/hafihaf123/nix_devenvs/commit/a61c05f62f2b3887a30ee916ee9f4ea4f5b1ea46)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.0.2](https://github.com/hafihaf123/nix_devenvs/compare/4afbcd2ed99c19deb26771614b3580b6fd87f3f2..v1.0.2) - 2026-03-30
 #### Bug Fixes
 - (**c**) add gcc explicitly as a package - ([c25f51e](https://github.com/hafihaf123/nix_devenvs/commit/c25f51e722a1aa7dc294c0e55db2828ea0ddec85)) - [@hafihaf123](https://github.com/hafihaf123)
