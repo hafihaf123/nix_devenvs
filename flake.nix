@@ -17,6 +17,7 @@
         ./envs/rust.nix
         ./envs/python.nix
         ./envs/c.nix
+        ./envs/node.nix
       ];
 
       # SUPPORTED ARCHITECTURES
