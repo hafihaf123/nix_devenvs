@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.1.0](https://github.com/hafihaf123/nix_devenvs/compare/b8ea7618b0ddbeb519f91c51b1641a7a5241ce35..v1.1.0) - 2026-04-01
+#### Features
+- (**node**) add node.nix devShell file - ([b8ea761](https://github.com/hafihaf123/nix_devenvs/commit/b8ea7618b0ddbeb519f91c51b1641a7a5241ce35)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.0.3](https://github.com/hafihaf123/nix_devenvs/compare/ca6d8d6eddd900da22e96a969d113df95b3a7e96..v1.0.3) - 2026-04-01
 #### Bug Fixes
 - (**c**) move explicit gcc package to the stdenv override instead - ([ca6d8d6](https://github.com/hafihaf123/nix_devenvs/commit/ca6d8d6eddd900da22e96a969d113df95b3a7e96)) - [@hafihaf123](https://github.com/hafihaf123)
