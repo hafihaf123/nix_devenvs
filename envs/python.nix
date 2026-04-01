@@ -18,6 +18,7 @@ _: {
 
         env = {
           UV_PROJECT_ENVIRONMENT = ".venv";
+          UV_PYTHON = "${pkgs.python3}/bin/python3";
         };
 
         shellHook = ''
