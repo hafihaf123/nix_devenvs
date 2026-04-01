@@ -11,7 +11,7 @@ _: {
           pkgs.pnpm
 
           # LSP
-          pkgs.nodePackages.typescript-language-server
+          pkgs.vtsls
         ];
 
         shellHook = ''
