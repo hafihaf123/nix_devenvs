@@ -18,6 +18,7 @@
         ./envs/python.nix
         ./envs/c.nix
         ./envs/node.nix
+        ./envs/java.nix
       ];
 
       # SUPPORTED ARCHITECTURES
