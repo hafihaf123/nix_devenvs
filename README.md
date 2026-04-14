@@ -25,7 +25,7 @@ direnv allow
 ### The Template
 
 ```nix
-{ ... }:
+_:
 {
   perSystem = { pkgs, ... }: {
 
