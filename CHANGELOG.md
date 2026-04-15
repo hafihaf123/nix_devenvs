@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.2.0](https://github.com/hafihaf123/nix_devenvs/compare/1b731e63f599fd85d58b4e5126b9c38f5eaf0cbc..v1.2.0) - 2026-04-15
+#### Features
+- (**java**) add java.nix devShell - ([7dc5abe](https://github.com/hafihaf123/nix_devenvs/commit/7dc5abebc8d5b092e1d2eb6a249165cd30a96c33)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Documentation
+- update README devShell template - ([1b731e6](https://github.com/hafihaf123/nix_devenvs/commit/1b731e63f599fd85d58b4e5126b9c38f5eaf0cbc)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.1.1](https://github.com/hafihaf123/nix_devenvs/compare/98c0432da5604b5c2893ea628c6ab4c09649ab9e..v1.1.1) - 2026-04-01
 #### Bug Fixes
 - (**node**) change node LSP to vtsls - ([98c0432](https://github.com/hafihaf123/nix_devenvs/commit/98c0432da5604b5c2893ea628c6ab4c09649ab9e)) - [@hafihaf123](https://github.com/hafihaf123)
