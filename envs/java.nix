@@ -1,10 +1,13 @@
 _: {
   perSystem =
     { pkgs, ... }:
+    let
+      jdk = pkgs.temurin-bin-21;
+    in
     {
       devShells.java = pkgs.mkShell.override { stdenv = pkgs.stdenvNoCC; } {
         packages = [
-          pkgs.javaPackages.compiler.temurin-bin.jdk-21
+          jdk
 
           # build tools
           pkgs.gradle
@@ -18,7 +21,7 @@ _: {
         ];
 
         env = {
-          JAVA_HOME = "${pkgs.jdk21.home}";
+          JAVA_HOME = "${jdk.home}";
         };
 
         shellHook = ''
