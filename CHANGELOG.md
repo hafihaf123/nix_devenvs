@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.2.1](https://github.com/hafihaf123/nix_devenvs/compare/56bd878d0f4fd573f87496e7436932b66e753f21..v1.2.1) - 2026-05-19
+#### Bug Fixes
+- make java jdk consistent - ([56bd878](https://github.com/hafihaf123/nix_devenvs/commit/56bd878d0f4fd573f87496e7436932b66e753f21)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Build system
+- update flake - ([6c81dce](https://github.com/hafihaf123/nix_devenvs/commit/6c81dce0b3fe8279d4a097b9f78d44c987f5f4dd)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.2.0](https://github.com/hafihaf123/nix_devenvs/compare/1b731e63f599fd85d58b4e5126b9c38f5eaf0cbc..v1.2.0) - 2026-04-15
 #### Features
 - (**java**) add java.nix devShell - ([7dc5abe](https://github.com/hafihaf123/nix_devenvs/commit/7dc5abebc8d5b092e1d2eb6a249165cd30a96c33)) - [@hafihaf123](https://github.com/hafihaf123)
