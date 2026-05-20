@@ -45,5 +45,3 @@ owner = "hafihaf123"
 authors = [{ username = "hafihaf123", signature = "Michal Buchman" }]
 
 [bump_profiles]
-
-[packages]
