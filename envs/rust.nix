@@ -26,6 +26,8 @@ _: {
         ];
 
         buildInputs = [
+          pkgs.libsecret
+          pkgs.glib
         ];
 
         shellHook = ''
