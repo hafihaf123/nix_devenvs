@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.2.2](https://github.com/hafihaf123/nix_devenvs/compare/7777aa3c07396dbddc93a13e4cf5ba760df24295..v1.2.2) - 2026-05-20
+#### Bug Fixes
+- (**rust**) add libsecret and glib packages to rust devShell for cargo publish - ([7777aa3](https://github.com/hafihaf123/nix_devenvs/commit/7777aa3c07396dbddc93a13e4cf5ba760df24295)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Continuous Integration
+- (**cog**) fix cog.toml configuration - remove reduntant packages tag - ([00ab78f](https://github.com/hafihaf123/nix_devenvs/commit/00ab78f149edfc79f242bac6fbc57f70714f0573)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.2.1](https://github.com/hafihaf123/nix_devenvs/compare/56bd878d0f4fd573f87496e7436932b66e753f21..v1.2.1) - 2026-05-19
 #### Bug Fixes
 - make java jdk consistent - ([56bd878](https://github.com/hafihaf123/nix_devenvs/commit/56bd878d0f4fd573f87496e7436932b66e753f21)) - [@hafihaf123](https://github.com/hafihaf123)
