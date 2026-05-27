@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.2.4](https://github.com/hafihaf123/nix_devenvs/compare/39e854a987e2f4bdb1b8a337212cc91881794dfb..v1.2.4) - 2026-05-27
+#### Bug Fixes
+- (**rust**) add environment variables for correct dynamic library loading to the shellHooks - ([39e854a](https://github.com/hafihaf123/nix_devenvs/commit/39e854a987e2f4bdb1b8a337212cc91881794dfb)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Documentation
+- (**readme**) update readme extension flake template to use the github path - ([a7d609c](https://github.com/hafihaf123/nix_devenvs/commit/a7d609c933a026cf3ef08a6af3e799cc42fc9d34)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.2.3](https://github.com/hafihaf123/nix_devenvs/compare/6b0f9a579a9ef22b84b432ade4475eebaa5e208f..v1.2.3) - 2026-05-27
 #### Bug Fixes
 - (**rust**) add debugger and RUST_SRC_PATH to rust devshell - ([6b0f9a5](https://github.com/hafihaf123/nix_devenvs/commit/6b0f9a579a9ef22b84b432ade4475eebaa5e208f)) - [@hafihaf123](https://github.com/hafihaf123)
