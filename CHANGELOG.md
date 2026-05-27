@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.2.3](https://github.com/hafihaf123/nix_devenvs/compare/6b0f9a579a9ef22b84b432ade4475eebaa5e208f..v1.2.3) - 2026-05-27
+#### Bug Fixes
+- (**rust**) add debugger and RUST_SRC_PATH to rust devshell - ([6b0f9a5](https://github.com/hafihaf123/nix_devenvs/commit/6b0f9a579a9ef22b84b432ade4475eebaa5e208f)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.2.2](https://github.com/hafihaf123/nix_devenvs/compare/7777aa3c07396dbddc93a13e4cf5ba760df24295..v1.2.2) - 2026-05-20
 #### Bug Fixes
 - (**rust**) add libsecret and glib packages to rust devShell for cargo publish - ([7777aa3](https://github.com/hafihaf123/nix_devenvs/commit/7777aa3c07396dbddc93a13e4cf5ba760df24295)) - [@hafihaf123](https://github.com/hafihaf123)
