@@ -76,7 +76,7 @@ Copy this `flake.nix` into your specialized project directory.
   description = "Project-specific environment extension";
 
   # 1. Point to your master repository
-  inputs.master.url = "path:/home/yourusername/nix-envs";
+  inputs.master.url = "github:hafihaf123/nix_devenvs";
 
   outputs = { master, ... }: {
 
