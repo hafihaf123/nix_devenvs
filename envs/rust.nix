@@ -17,6 +17,9 @@ _: {
           # LSP
           pkgs.rust-analyzer
 
+          # debugger
+          pkgs.gdb
+
           # additional tools
           pkgs.cargo-nextest
         ];
@@ -29,6 +32,10 @@ _: {
           pkgs.libsecret
           pkgs.glib
         ];
+
+        env = {
+          RUST_SRC_PATH = "${pkgs.rustPlatform.rustLibSrc}";
+        };
 
         shellHook = ''
           rustc --version
