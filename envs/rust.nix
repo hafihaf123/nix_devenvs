@@ -33,11 +33,14 @@ _: {
           pkgs.glib
         ];
 
-        env = {
-          RUST_SRC_PATH = "${pkgs.rustPlatform.rustLibSrc}";
-        };
-
         shellHook = ''
+          export LD_LIBRARY_PATH="${
+            pkgs.lib.makeLibraryPath [
+              pkgs.libsecret
+              pkgs.glib
+            ]
+          }:$LD_LIBRARY_PATH"
+          export RUST_SRC_PATH="${pkgs.rustPlatform.rustLibSrc}"
           rustc --version
         '';
       };
