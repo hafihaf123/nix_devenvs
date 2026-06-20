@@ -19,6 +19,7 @@
         ./envs/c.nix
         ./envs/node.nix
         ./envs/java.nix
+        ./envs/nu.nix
       ];
 
       # SUPPORTED ARCHITECTURES
