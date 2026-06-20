@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.3.0](https://github.com/hafihaf123/nix_devenvs/compare/3c323ae9d249335b25a03a06f4ba63e95ba8f86b..v1.3.0) - 2026-06-20
+#### Features
+- (**nu**) add nu.nix devShell - ([f475229](https://github.com/hafihaf123/nix_devenvs/commit/f475229cc6f097b15d0b138e45550dc4363c2c7a)) - [@hafihaf123](https://github.com/hafihaf123)
+#### Build system
+- update flake - ([3c323ae](https://github.com/hafihaf123/nix_devenvs/commit/3c323ae9d249335b25a03a06f4ba63e95ba8f86b)) - [@hafihaf123](https://github.com/hafihaf123)
+
+- - -
+
 ## [v1.2.4](https://github.com/hafihaf123/nix_devenvs/compare/39e854a987e2f4bdb1b8a337212cc91881794dfb..v1.2.4) - 2026-05-27
 #### Bug Fixes
 - (**rust**) add environment variables for correct dynamic library loading to the shellHooks - ([39e854a](https://github.com/hafihaf123/nix_devenvs/commit/39e854a987e2f4bdb1b8a337212cc91881794dfb)) - [@hafihaf123](https://github.com/hafihaf123)
